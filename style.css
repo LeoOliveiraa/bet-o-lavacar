@@ -9,8 +9,10 @@
     font-family: 'Lato', sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+
+body {
+    background-color: #000000;
+    overflow-x: hidden;
 }
 
 .mobile-menu {
@@ -126,7 +128,7 @@ span {
     display: block;
     width: 30px;
     height: 20px;
-    
+
 }
 
 .bar {
@@ -219,8 +221,8 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    
+    width: 100%;
+
 }
 
 .card {
@@ -243,6 +245,7 @@ span {
 
 
 .card img {
+    max-width: 90%;
     width: 100%;
     max-height: 150px;
     object-fit: cover;
@@ -286,6 +289,7 @@ span {
 #contact {
     background-color: #000000;
     width: 100vw;
+    margin-bottom: 50px;
 }
 
 .text-contact {
@@ -305,16 +309,35 @@ span {
 }
 
 .logo-contato img {
-    margin-right: 20px;
-    background-color: #fff;
-    border-radius: 70%;
+    margin-right: 30px;
     cursor: pointer;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 
 /* Fim Contatos*/
 
 #footer {
-    background-color: #000000;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #05317E;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-footer h2 {
+    font-size: 1.3rem;
+}
+
+.content-footer h3 {
+    font-size: .9rem;
 }

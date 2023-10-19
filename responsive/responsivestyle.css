@@ -1,5 +1,14 @@
 /*Tablets e Notebooks*/
-@media (min-width: 992px) and (max-width:1199px) {}
+@media (min-width: 992px) and (max-width:1199px) {
+    #card-services {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
 
 
 /*Tablets Pequenos*/
@@ -22,9 +31,6 @@
         display: block;
         opacity: 1;
     }
-    
-
-
 }
 
 /*Coisas mais pequenas*/
@@ -68,6 +74,17 @@
         width: 80%;
     }
 
+    .text-contact h2 {
+        font-size: 1.9rem;
+    }
+
+    .content-footer h2 {
+        font-size: 1rem;
+    }
+
+    .content-footer h3 {
+        font-size: .6rem;
+    }
 }
 
 /*Mobile*/
@@ -110,6 +127,18 @@
 
     .card {
         width: 80%;
+    }
+
+    .text-contact h2 {
+        font-size: 1.9rem;
+    }
+
+    .content-footer h2 {
+        font-size: 1rem;
+    }
+
+    .content-footer h3 {
+        font-size: .6rem;
     }
 
 }
@@ -156,4 +185,15 @@
         width: 80%;
     }
 
+    .text-contact h2 {
+        font-size: 1.9rem;
+    }
+
+    .content-footer h2 {
+        font-size: 1rem;
+    }
+
+    .content-footer h3 {
+        font-size: .6rem;
+    }
 }
