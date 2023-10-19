@@ -189,7 +189,13 @@ span {
     flex-direction: column;
 }
 
+
 .cta-button button {
+    background-color: transparent;
+    border: none;
+}
+
+.cta-button button a {
     font-size: 1rem;
     font-weight: 800;
     padding: 15px;
@@ -201,9 +207,13 @@ span {
     transition: .6s ease-in-out;
 }
 
-.cta-button button:hover {
+.cta-button button a:hover {
     color: #FFFFFF;
     background-color: #0749A9;
+}
+
+.cta-button button a {
+    text-decoration: none;
 }
 
 .cta-button h2 {
