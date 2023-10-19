@@ -1,0 +1,108 @@
+/*Tablets e Notebooks*/
+@media (min-width: 992px) and (max-width:1199px) {}
+
+
+/*Tablets Pequenos*/
+@media (min-width: 768px) and (max-width:991px) {}
+
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-items {
+        display: block;
+        opacity: 1;
+    }
+}
+
+/*Coisas mais pequenas*/
+@media (min-width: 481px) and (max-width:767px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .header-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-nos {
+        margin-top: -2rem;
+    }
+
+    .sobre-nos h2 {
+        font-size: 2rem;
+    }
+
+    .sobre-nos p {
+        font-size: 1rem;
+    }
+}
+
+/*Mobile*/
+@media (min-width: 401px) and (max-width:480px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .header-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-nos {
+        margin-top: -2rem;
+    }
+
+    .sobre-nos h2 {
+        font-size: 2rem;
+    }
+
+    .sobre-nos p {
+        font-size: 1rem;
+    }
+}
+
+/*Pequenos Dispositivos*/
+@media screen and (max-width: 400px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .header-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sobre-nos {
+        margin-top: -1rem;
+    }
+
+    .sobre-nos h2 {
+        font-size: 1.8rem;
+    }
+
+    .sobre-nos p {
+        font-size: .9rem;
+    }
+
+}
