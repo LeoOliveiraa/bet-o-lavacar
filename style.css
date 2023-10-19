@@ -7,6 +7,7 @@
     box-sizing: border-box;
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 .mobile-menu {
@@ -213,17 +214,27 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .card {
-    width: 300px;
+    width: 250px;
+    height: 500px;
+    min-height: 500px;
+    min-width: 250px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: #fff;
+    background-color: #ffffff;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
+
+
 
 .card img {
     width: 100%;
@@ -251,6 +262,11 @@ span {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .card button a {

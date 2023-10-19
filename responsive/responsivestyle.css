@@ -105,4 +105,14 @@
         font-size: .9rem;
     }
 
+    #card-services {
+        flex-direction: column;
+        /* Empilhar os cards em telas menores */
+    }
+
+    .card {
+        width: 80%;
+        /* Largura total em telas menores */
+    }
+
 }
