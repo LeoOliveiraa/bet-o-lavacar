@@ -3,7 +3,15 @@
 
 
 /*Tablets Pequenos*/
-@media (min-width: 768px) and (max-width:991px) {}
+@media (min-width: 768px) and (max-width:991px) {
+    #card-services {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
 
 @media (min-width: 769px) {
     .menu-toggle {
@@ -14,6 +22,9 @@
         display: block;
         opacity: 1;
     }
+    
+
+
 }
 
 /*Coisas mais pequenas*/
@@ -44,6 +55,19 @@
     .sobre-nos p {
         font-size: 1rem;
     }
+
+    .cta-button h2 {
+        font-size: 2rem;
+    }
+
+    #card-services {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
 }
 
 /*Mobile*/
@@ -74,6 +98,20 @@
     .sobre-nos p {
         font-size: 1rem;
     }
+
+    .cta-button h2 {
+        font-size: 2rem;
+        margin-top: 100px;
+    }
+
+    #card-services {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
 }
 
 /*Pequenos Dispositivos*/
@@ -105,14 +143,17 @@
         font-size: .9rem;
     }
 
+    .cta-button h2 {
+        font-size: 2rem;
+        margin-top: 100px;
+    }
+
     #card-services {
         flex-direction: column;
-        /* Empilhar os cards em telas menores */
     }
 
     .card {
         width: 80%;
-        /* Largura total em telas menores */
     }
 
 }

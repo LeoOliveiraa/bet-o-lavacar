@@ -8,3 +8,15 @@ menuToggle.addEventListener('click', () => {
         menuItems.style.display = 'block'; // Abre o menu móvel
     }
 });
+
+// Deixar o header com fundo preto 
+
+let header = document.getElementById('header')
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 100){
+        header.style.background = '#000000'
+    } else {
+        header.style.background = 'transparent'
+    }
+})
